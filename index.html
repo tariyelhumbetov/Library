@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font cdn's -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;900&family=Nunito+Sans&family=Roboto&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap modal -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous">
+        </script>
+    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/home.css">
+    <!-- js -->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script defer src="./js/adminpanel.js" type="module"></script>
+
+    <title>Search</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg  " style="height:80px ">
+            <div class="container-fluid" style="margin-top:36px">
+                <a class="navlogo" href="#">
+                    <img src="./images/searchpageimg/Vector.png" alt="book">
+                    <div>
+                        <div class="logoh1">LIBRARY</div>
+                        <div class="line"></div>
+                        <p class="logop">Book store</p>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="./index.html">Home</a></li>
+                        <li class="nav-item"><a href="./catalog.html">Catalog</a></li>
+                        <li class="nav-item"><a href="./about.html">About Store</a></li>
+                        <li class="nav-item"><a href="./contact.html">Contact us</a></li>
+                        <li class="nav-item"><a href="./search.html">Search</a></li>
+                    </ul>
+                    <a class="joinbtn">
+                        <button type="button" id="join_btn" data-toggle="modal" data-target="#exampleModal">
+                            <img src="./assets/images/Combined Shape.png" alt="icon">
+                        </button>Join</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row firstcontent">
+                <div class="col-lg-6 col-md-12 mb-5">
+                    <div class="homepageheader">Books from A to Z</div>
+                    <p class="home-p">In our store you can find a book for every taste. A large assortment. Nice prices. Interesting
+                        stories.</p>
+                    <a class="gotocatalogbtn" href="./catalog.html">Go to catalog</a>
+                    <!-- <button class="gotocatalogbtn">Go to catalog</button> -->
+                </div>
+                <div class="col-lg-6 col-md -12">
+                    <img class="homepageimg" src="./images/homepageimg/Group 249.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="catalogword col-12 ">Catalog</div>
+            </div>
+            <div class="row buttons">
+                <!-- <div class="col-lg-4 col-md-12  btndiv"><button class="catalogbtn">Books</button></div>
+                <div class="col-lg-4 col-md-12  btndiv"><button class="catalogbtn">Electronic books</button></div>
+                <div class="col-lg-4 col-md-12  btndiv"><button class="catalogbtn">Audiobooks</button></div>
+                <div class="col-lg-4 col-md-12  btndiv"><button class="catalogbtn">Toys, creativity</button></div>
+                <div class="col-lg-4 col-md-12  btndiv"><button class="catalogbtn">Book accessories</button></div>
+                <div class="col-lg-4 col-md-12  btndiv"><button class="catalogbtn">Notepads</button></div>
+                <div class="col-lg-4 col-md-12  btndiv"><button class="catalogbtn">Board games</button></div>
+                <div class="col-lg-4 col-md-12  btndiv"><button class="catalogbtn">Present</button></div>
+                <div class="col-lg-4 col-md-12  btndiv"><button class="catalogbtn">Stock</button></div> -->
+            </div>
+            <div class="row">
+                <div class="catalogword col-12 ">About Store</div>
+            </div>
+            <div class="row mt-5 statistics">
+                <div class="col-lg-3 col-md-12 d-flex justify-content-lg-center align-items-center">
+                    <div class="statisticnum me-3">35</div>
+                    <div class="statisticsword">Branches the country</div>
+                </div>
+                <div class="col-lg-3 col-md-12 d-flex justify-content-lg-center align-items-center">
+                    <div class="statisticnum me-3">898</div>
+                    <div class="statisticsword">Products catalog</div>
+                </div>
+                <div class="col-lg-3 col-md-12 d-flex justify-content-lg-center align-items-center">
+                    <div class="statisticnum me-3">8659</div>
+                    <div class="statisticsword">Buyers</div>
+                </div>
+                <div class="col-lg-3 col-md-12 d-flex justify-content-lg-center align-items-center">
+                    <div class="statisticnum me-3">72</div>
+                    <div class="statisticsword">Hours delivery to cities</div>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="catalogword col-12 ">Delivery</div>
+            </div>
+            <div class="row">
+                <p class="deliveryp"> We work without holidays and weekends! Residents of Kiev can receive an order on
+                    the day of its registration. Customers from other cities of Ukraine can receive an order within 1-5
+                    days, depending on the location of the settlement and the selected delivery method. Orders over UAH
+                    1000 are delivered free of charge *. You can see the available methods, exact terms and cost of
+                    delivery during checkout in the order basket, aafter selecting the delivery city. More details </p>
+            </div>
+            <div class="row socialm">
+                <div class="catalogword col-12 ">Follow us on social media</div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <img class="sociallogo" src="./images/contactpageimg/facebook.png" alt="">
+                    <img class="sociallogo" src="./images/searchpageimg/twitter.png" alt="">
+                    <img class="sociallogo" src="./images/searchpageimg/instagram.png" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="row ">
+            <div class="col-lg-5 col-md-12  text-center mt-5 ">
+                <img class="footerbook" src="./images/homepageimg/footerbook.png" alt="book">
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4 ">
+                <div class="list  ">
+                    <div><a class="listhead" href="#">Popular</a></div>
+                    <div><a href="#">Programming</a></div>
+                    <div><a href="#">Books for children</a></div>
+                    <div><a href="#">Psychology</a></div>
+                    <div><a href="#">Business</a></div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4">
+                <div class="list  ">
+                    <div><a class="listhead" href="#">Cash</a></div>
+                    <div><a href="#">Delivery</a></div>
+                    <div><a href="#">Payment</a></div>
+                    <div><a href="#">About the store</a></div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4">
+                <div class="list  ">
+                    <div><a class="listhead" href="#">Help</a></div>
+                    <div><a href="#">Contacts</a></div>
+                    <div><a href="#">Purchase return</a></div>
+                    <div><a href="#">Buyer Help</a></div>
+                </div>
+            </div>
+            <div class="col-lg-1 "></div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <p class="footerp"> All rights reserved © 2003-2021 LIBRARY TERMS OF USE | Privacy Policy </p>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <h5 class="modal-title" id="exampleModalLabel">Join Us</h5>
+                <div class="modal-body">
+                    <input id="modalnameinput" class="modal-input" type="text" placeholder="Full name">
+                    <input id="modalmailinput" class="modal-input" type="email" placeholder="Email">
+                    <button id="modaljoinbtn" type="button" class="btn btn-warning">Join</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

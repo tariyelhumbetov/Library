@@ -1,0 +1,279 @@
+body {
+
+    background-color: #fffaf5;
+    overflow-x: hidden
+}
+
+/* header */
+nav {
+    margin-left: 8%;
+    margin-right: 65px;
+}
+
+.navlogo {
+    display: flex;
+    text-decoration: none;
+}
+
+.navlogo>img {
+    width: 42px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logoh1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #720418;
+}
+
+.line {
+    width: 127px;
+    height: 0px;
+    left: 263px;
+    top: 52.39px;
+    border: 1px solid rgba(0, 0, 0, 0.59);
+}
+
+.logop {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 196.19%;
+    display: flex;
+    align-items: center;
+    color: #241400;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    list-style: none;
+    gap: 21px;
+    margin-right: 30%;
+}
+
+li>a {
+    color: #241400;
+    text-decoration: none;
+
+}
+
+li>a:hover {
+    color: #E16A00;
+    text-decoration: underline;
+}
+
+#join_btn {
+    background-color: #FFFAF5;
+    border: none;
+}
+
+.joinbtn {
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    color: #241400;
+}
+
+.joinbtn:hover {
+    color: #241400;
+}
+
+/* main */
+.container {
+    padding-top: 110px;
+    margin-bottom: 250px;
+
+}
+
+.contactus {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 196.19%;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.inputs {
+    box-sizing: border-box;
+
+}
+
+.contactinput {
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    width: 90%;
+    height: 75px;
+    padding-left: 40px;
+}
+
+.sendbtn {
+    width: 90%;
+    height: 75px;
+    background: #E16A00;
+    border: 0;
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* footer */
+
+#follow {
+    text-align: center;
+    color: #241400;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 196.19%;
+    margin: 206px 0px 22px 0px;
+}
+
+.social {
+    margin: 0px 54px 104px 0px;
+    width: 90px;
+    height: 63px;
+}
+
+.footer-box {
+    width: 100%;
+    background-color: #391F00;
+}
+
+.list-group>div {
+    background-color: #391F00;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 196.19%;
+    text-align: start;
+    border: 0;
+    margin-bottom: 5px;
+
+}
+
+.listh {
+    font-weight: 500;
+    font-size: 26px !important;
+}
+
+.list-group {
+    margin-top: 56px;
+
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 196.19%;
+}
+
+.phone {
+
+    color: #fff;
+    margin: 89px 0px 33px 0;
+    width: 120px;
+    height: 17.67px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 196.19%;
+}
+
+.call {
+
+
+    color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    width: 136px;
+    height: 26px;
+    border: 1px solid #E16A00;
+}
+
+.text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 196.19%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.socialm {
+
+    width: 100%;
+}
+
+.modal-content {
+    width: 500px;
+    height: 400px;
+}
+
+.modal-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+    margin: 35px 0px 0px 0px;
+    border-bottom: none;
+}
+
+
+.modal-input {
+    width: 390px;
+    height: 50px;
+    margin: 0px 30px 34px 35px;
+    border: 1px solid #CECECE;
+    padding-left: 53px;
+}
+
+.btn {
+    color: #fff;
+    width: 390px;
+    height: 50px;
+    margin: 43px 30px 34px 35px;
+    background: #E16A00;
+    border: 1px solid #CECECE;
+    border-radius: 5px;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #660416;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 2px;
+}

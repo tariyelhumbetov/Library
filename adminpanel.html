@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jquery -->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- js -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script defer src="./js/adminpanel.js" type="module"></script>
+    <!-- google font cdn's -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;900&family=Nunito+Sans&family=Roboto&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/adminpanel.css">
+    <title>Admin Panel </title>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="navbarsection">
+                <a href="./index.html" class="navbarhead">
+                    <img class="mainbook" src="./images/adminpanelimg/Vector.png" alt="book">
+                    <div class="head">
+                        <h1>LIBRARY</h1>
+                        <div class="firstline"></div>
+                        <div class="h1">Admin Panel</div>
+                    </div>
+                </a>
+                <hr class="secondline">
+                <div class="navbarlist">
+                    <nav>
+                        <a class="list" href="#addbookmenu">
+                            <img src="./images/adminpanelimg/Vector (1).png" alt="book">
+                            <h2>Home</h2>
+                        </a>
+                        <a class="list" href="#aboutstoremenu">
+                            <img src="./images/adminpanelimg/Vector (1).png" alt="book">
+                            <h2>About</h2>
+                        </a>
+                        <a class="list" href="#joinusmenu">
+                            <img src="./images/adminpanelimg/Vector (1).png" alt="book">
+                            <h2>Join</h2>
+                        </a>
+                        <a class="list" href="#contactusmenu">
+                            <img src="./images/adminpanelimg/Vector (1).png" alt="book">
+                            <h2>Contact</h2>
+                        </a>
+                        <a class="list" href="./index.html">
+                            <img src="./images/adminpanelimg/Vector (1).png" alt="book">
+                            <h2>Logout</h2>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="inputs">
+            <div class="firstsection">
+                <div class="admin">
+                    <img src="./images/adminpanelimg/Combined Shape.png" alt="icon">
+                    <div>Admin</div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="secondsection">
+                    <div class="search">
+                        <h3 id="addbookmenu">Add Book</h3>
+                        <h4>Search Book</h4>
+                        <div class="searchbuttonsection">
+                            <input list="results" class="searchinput" type="text" placeholder="Dan Brown">
+                            <datalist id="results"></datalist>
+                            <button class="searchbtn"><img class="searchimg" src="./images/adminpanelimg/Group 244.png"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="thirdsection">
+                    <h4>Book form</h4>
+                    <form class="bookform">
+                        <label for="bookname">Book name</label>
+                        <input id="bookname" type="text">
+                        <label for="authorname">Author name</label>
+                        <input id="authorname" type="text">
+                        <label for="imgurl">Book Image Url</label>
+                        <input id="imgurl" type="text">
+                        <label for="description">Description</label>
+                        <input id="description" type="text">
+                        <label for="booktype">Book Type</label>
+                        <input id="booktype" type="text">
+                        <button class="bookformbtn">Add</button>
+                    </form>
+                </div>
+                <div class="forthsection">
+                    <h3 id="aboutstoremenu">About Store</h3>
+                    <div class="aboutstoreform">
+                        <label for="title">Title</label>
+                        <input id="abouttitle" type="text">
+                        <label for="aboutimgurl">Book Image URL</label>
+                        <input id="aboutimgurl" type="text">
+                        <label for="aboutdescribtion">Describtion</label>
+                        <input id="aboutdescribtion" type="text">
+                        <button class="aboutinfoadd">About info add</button>
+                    </div>
+                </div>
+                <div class="fifthsection">
+                    <h3 id="joinusmenu">Join Us</h3>
+                    <table class="joinustable table table-striped">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Full name</th>
+                                <th>Email Adress</th>
+                            </tr>
+                        </thead>
+                        <tbody id="jointbdoy">
+                        </tbody>
+                    </table>
+                </div>
+                <div class="sixthsection">
+                    <h3 id="contactusmenu">Contact Us</h3>
+                    <table class="contactustable table table-striped">
+                        <tr>
+                            <th>#</th>
+                            <th>Full Name</th>
+                            <th>Adress</th>
+                            <th>Email adress</th>
+                            <th>Phone Number</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
